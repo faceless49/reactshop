@@ -1,3 +1,44 @@
+.cat {
+  &_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0 15px 20px;
+    cursor: pointer;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
 
-.CatItem{
+    @media (min-width: 991px) {
+      &:hover {
+        transition: color 0.3s;
+        box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+      }
+    }
+  }
+
+  &_descr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &_title {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: #2f3035;
+
+    @media (min-width: 991px) {
+      &:hover {
+        transition: color 0.3s;
+        color: #1c62cd;
+      }
+    }
+  }
+  &_link {
+      position: relative;
+      text-decoration: none;
+      color: #C4C4C4;
+      font-size: 14px;
+  }
 }

@@ -1,16 +1,14 @@
-import CatImage from "./catImage/CatImage";
 import s from "./CatItem.module.scss";
 
-function CatItem(props) {
+ const CatItem = (props) => {
   return (
-    <div className="cat_item">
-      <div className="cat_descr">
-        <h2 className="cat_title">{props.text}</h2>
-        <a href="#" className="cat_link">
+    <div className={s.cat_item} style="">
+      <div className={s.cat_descr}>
+        <h2 className={s.cat_title}>{props.text}</h2>
+        <a href="#" className={s.cat_link}>
           Подробнее
         </a>
       </div>
-      <CatImage />
     </div>
   );
 }
