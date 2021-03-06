@@ -1,0 +1,7 @@
+.headerBottomList{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    max-width: 1170px;
+
+}
