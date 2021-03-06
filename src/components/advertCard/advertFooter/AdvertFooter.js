@@ -1,12 +1,13 @@
+import AdvertText from '../advertText/AdvertText';
 import s from './AdvertFooter.module.scss';
 
 
-
-function AdvertFooter(props) {
+ 
+const AdvertFooter = (props) => {
   return (
-    <div className="advert_footer">
-      <span className="advert_text">{props.text}</span>
-      <span className="advert_time">{props.text}</span>
+    <div className={s.advert_footer}>
+      <AdvertText text='Акция действует до' style={{display: 'block'}}/>
+      <AdvertText text='31.08.2020' style={{display: 'block'}}/>
     </div>
   );
 }

@@ -1,10 +1,10 @@
-import advertimage from '../../../assets/advertitem/advert.png'
+import advertimage from '../../../assets/advertitem/1.png'
+import s from './AdvertImage.module.scss'
 
-
-function AdvertImage(props) {
+const AdvertImage = (props) => {
   return (
-   <img src={advertimage} alt="" className="advertimage"/>
-  );
+   <img src={advertimage} alt="adverimg" className={s.advertimage}/>
+  )
 }
 
 export default AdvertImage;
