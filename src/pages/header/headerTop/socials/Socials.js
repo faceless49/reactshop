@@ -6,9 +6,15 @@ import './Socials.css';
 function Socials() {
     return(
         <div className="socials">
+        <a href="">
         <img className="socialIcon" src={Socials1} alt=""/>
+        </a>
+        <a href="">
         <img className="socialIcon" src={Socials2} alt=""/>
+        </a>
+        <a href="">
         <img className="socialIcon" src={Socials3} alt=""/>
+        </a>
         </div>
     );
 }

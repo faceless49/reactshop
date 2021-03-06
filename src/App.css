@@ -1,3 +1,52 @@
+@font-face {
+    font-family:"Barlow-Bold";
+    src: url("./assets/fonts/Barlow/Barlow-Bold.ttf");
+}
+
+@font-face {
+  font-family:"Barlow-Regular";
+  src:url("./assets/fonts/Barlow/Barlow-Regular.ttf");
+}
+
+@font-face {
+  font-family:"Barlow-SemiBold";
+  src: url("./assets/fonts/Barlow/Barlow-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url("./assets/fonts/ProximaNova/ProximaNova-Bold.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url("./assets/fonts/ProximaNova/ProximaNova-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src: url("./assets/fonts/SFProDisplay/SFProDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Medium";
+  src: url("./assets/fonts/SFProDisplay/SFProDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url("./assets/fonts/SFProDisplay/SFProDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src: url("./assets/fonts/SFProDisplay/SFProDisplay-Semibold.ttf");
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
