@@ -1,20 +1,22 @@
 import Socials from "./socials/Socials";
+import './Footer.css';
 
 
 function Footer() {
     return (
     <div className="Footer__inner">
 
-            <div className="footer__title">Подпишитесь на нашу рассылку и узнавайте о акция быстрее</div>
+            {/* <div className="footer__title">Подпишитесь на нашу рассылку и узнавайте о акция быстрее</div> */}
 
         <div className="footer__input">
+        <h3 className="footer__title">Подпишитесь на нашу рассылку<br/> и узнавайте о акция быстрее</h3>
             <input placeholder="Введите ваш e-mail"></input>
             <button>Отправить</button>
         </div>
 
         <div className="footer__information">
             <ul>
-                <h3>Информация</h3>
+                <h4>Информация</h4>
                 <li>О компании</li>
                 <li>Контакты</li>
                 <li>Акции</li>
@@ -31,8 +33,9 @@ function Footer() {
                 <li>Новости</li>
             </ul>
         </div>
-
+        <div className="socials">
         <Socials/>
+        </div>
     </div>
     );
 }
