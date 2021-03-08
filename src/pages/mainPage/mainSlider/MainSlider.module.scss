@@ -1,0 +1,15 @@
+.swiper {
+  &_wrapper {
+    max-width: 870px;
+    cursor: pointer;
+
+  }
+
+  &-button-next,&-button-prev {
+    color: #fff;
+  }
+}
+.swiper-button-next:after {
+  color: white ;
+}
+
