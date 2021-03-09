@@ -1,0 +1,26 @@
+.advert {
+  padding: 30px 123px 15px 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1c62cd;
+
+  &_title {
+    color: #fff;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  &_link {
+    padding: 3px 30px;
+    color: #2f3035;
+    font-size: 24px;
+    background-color: #fff;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    text-decoration: none;
+  }
+}
