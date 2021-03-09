@@ -14,7 +14,7 @@ const AdvertBlock = (props) => {
       <CardImage imgUrl={maverick2}/>
       </div>
       <h2 className={s.advert_title}>
-        <span className={s.advert_textUppercase}>CКИДКИ</span> на все запчасти до 70%
+        <span className={s.advert_textUppercase}>CКИДКИ</span><br/> на все запчасти до 70%
       </h2>
       <a href="#" className={s.advert_link}>ПОСМОТРЕТЬ ВСЕ</a>
     </section>

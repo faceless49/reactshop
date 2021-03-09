@@ -20,7 +20,7 @@ SwiperCore.use([Navigation, Pagination, Controller, Autoplay]);
 const MainSlider = (props) => {
   return (
     <div className={s.swiper_wrapper}>
-      <Swiper
+      <Swiper className={s.s2}
         spaceBetween={0}
         slidesPerView={1}
         navigation

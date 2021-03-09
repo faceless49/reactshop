@@ -3,12 +3,10 @@ import Header from "./pages/header/Header";
 import CategoryList from "./pages/mainPage/category/CategoryList";
 import Hero from "./pages/mainPage/hero/Hero";
 import SearchForm from "./pages/mainPage/searchForm/SearchForm";
-import Card from "./components/card/Card";
-import backpack from "./assets/images/popularSlider/backpack.png";
 import { BrowserRouter } from "react-router-dom";
-import MainSlider from "./pages/mainPage/mainSlider/MainSlider";
-import AdvertCard from "./components/advertCard/AdvertCard";
 import AdvertBlock from "./pages/mainPage/advertBlock/AdvertBlock";
+import Footer from "./components/footer/Footer";
+import PopularSlider from "./pages/mainPage/popularSlider/PopularSlider";
 
 const App = () => {
   return (
@@ -21,6 +19,9 @@ const App = () => {
           <CategoryList />
         </section>
         <AdvertBlock/>
+        <PopularSlider/>
+      <Footer/>
+
       </div>
     </BrowserRouter>
   );

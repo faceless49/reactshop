@@ -6,13 +6,13 @@ import Button from '../button/Button';
 
 
 
-function Card(props) {
+const Card = (props) => {
   return (
     <div className={s.card}>
       <CardImage imgUrl={props.src}/>
       <CardTitle text={props.title}/>
       <CardText text={props.text}/>
-      <Button style={{alignSelf: 'center'}}/>
+      <Button style={{alignSelf: 'flex-end'}}/>
     </div>
   );
 }
