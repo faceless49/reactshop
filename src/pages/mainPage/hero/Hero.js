@@ -5,10 +5,10 @@ import MainSlider from "../mainSlider/MainSlider";
 
 const Hero = (props) => {
     return (
-        <section className={s.hero}>
+        <div className={s.hero_wrapper}>
             <MainSlider/>
             <AdvertCard/>
-        </section>
+        </div>
     )
 }
 

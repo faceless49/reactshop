@@ -1,4 +1,12 @@
-.advert_header {
+.advert {
+  &_header {
     display: flex;
-    flex-direction: column;
-}
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+    &_price {
+        display: flex;
+        flex-direction: column;
+    }
+  }

@@ -1,5 +1,3 @@
-import s from "./MainSlider.module.scss";
-import './MainSliderDefault.scss'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
@@ -12,6 +10,12 @@ import SwiperCore, {
 import "swiper/swiper.scss";
 import SliderItem from "./sliderItem/SliderItem";
 import extreme from "./../../../assets/images/mainSlider/extreme.png";
+import 'swiper/components/pagination/pagination.scss';
+
+
+
+import "./MainSlider.scss";
+
 
 
 SwiperCore.use([Navigation, Pagination, Controller, Autoplay]);
@@ -19,8 +23,8 @@ SwiperCore.use([Navigation, Pagination, Controller, Autoplay]);
 
 const MainSlider = (props) => {
   return (
-    <div className={s.swiper_wrapper}>
-      <Swiper className={s.s2}
+    <div className='swiper_wrapper'>
+      <Swiper 
         spaceBetween={0}
         slidesPerView={1}
         navigation
@@ -30,8 +34,10 @@ const MainSlider = (props) => {
           disableOnInteraction: false,
           stopOnLastSlide: false,
         }}
-        pagination={{clickable:true}}
+        pagination={{clickable:true,
+                      background: 'red'}}
         scrollbar={{ draggable: true }}
+        dot={{backgroundColor: 'red'}}
       >
         <SwiperSlide>
           <SliderItem imgUrl={extreme} />

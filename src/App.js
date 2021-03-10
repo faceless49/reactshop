@@ -13,7 +13,9 @@ const App = () => {
     <BrowserRouter>
       <div className="App">
         <Header />
+        <section className="hero">
         <Hero/>
+        </section>
         <section className="category">
           <SearchForm text1="Поиск по  номеру" text2="Поиск по марке" text3="Поиск по названию товара" placeholder="Введите марку "/>
           <CategoryList />

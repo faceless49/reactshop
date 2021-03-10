@@ -9,8 +9,8 @@ import s from "./CatItem.module.scss";
         <a href="#" className={s.cat_link}>
           Подробнее
         </a>
-        <CatImage src={props.imgUrl}/> 
       </div>
+      <CatImage src={props.imgUrl}/> 
     </div>
   );
 }
