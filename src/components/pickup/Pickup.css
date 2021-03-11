@@ -1,0 +1,19 @@
+
+
+.table{
+    text-align: left;
+    border: 1px solid gray;
+    width: 50%;
+}
+
+.shop{
+    background-color: #C4C4C4;
+    width: 200px;
+    height: 10px;
+    margin-left: 20px;
+}
+
+.holder{
+    display: flex;
+    margin-left: 20px;
+}

@@ -5,9 +5,9 @@ function Navigation() {
   return (
     <div className="navigation">
       <ul className="navigationList">
-        <li>Магазины</li>
-        <li>Акции</li>
-        <li>Доставка и оплата</li>
+        <li className="navigation__items">Магазины</li>
+        <li className="navigation__items">Акции</li>
+        <li className="navigation__items">Доставка и оплата</li>
       </ul>
     </div>
   );

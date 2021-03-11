@@ -2,5 +2,9 @@
     list-style:none;
     display: flex;
     justify-content: space-between;
-    max-width: 330px;
+    font-size: 30px;
+    /* max-width: 330px; */
+}
+.navigation__items{
+    padding-left: 70px;
 }

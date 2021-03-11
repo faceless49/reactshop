@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.products__main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0F0F4;
+    padding: 20px;
+    width: 70%;
+
+}
+a{
+    text-decoration: none;
+}
