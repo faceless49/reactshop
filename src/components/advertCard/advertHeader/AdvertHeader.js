@@ -8,8 +8,10 @@ const AdvertHeader = (props) => {
   return (
     <div className={s.advert_header}>
       <AdvertLabel text="Акция" style={{padding: '9px 20px'}}/>
+      <div className={s.advert_price}>
       <AdvertText text="190 000"/>
-      <AdvertText style={{textDecoration: "line-through", color: '#C4C4C4', fontSize: '14px'}} text="225 000 &#x20bd;"/>
+      <AdvertText style={{color: '#C4C4C4', fontSize: '14px'}} text="225 000 &#x20bd;"/>
+      </div>
     </div>
   );
 }

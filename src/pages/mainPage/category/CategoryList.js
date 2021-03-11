@@ -1,24 +1,30 @@
 import s from "./CategoryList.module.scss";
-import CatItem from './catItem/CatItem';
+import CatItem from "./catItem/CatItem";
+import quadro from "../../../assets/category/quadro.png"; 
+import hydro from "../../../assets/category/hydro.png"
+import boat from "../../../assets/category/boat.png"
+import snow from "../../../assets/category/snow.png"
+import maverick from "../../../assets/category/maverick.png"
+import engine from "../../../assets/category/engine.png"
+
+
+// ! Как прокидывать картинки по адресу без использования переменной ?
+
+
 
 
 
 const CategoryList = (props) => {
-    return ( 
-        <section className={s.category_list}> 
-        <CatItem text='Квадроциклы' style={{  
-  backgroundImage: "url(" + "../../../assets/category/hydro.png" + ")",
-  backgroundPosition: 'center',
-  backgroundSize: 'cover',
-  backgroundRepeat: 'no-repeat'
-}}/>
-        <CatItem text='Гидроциклы'style={{backgroundColor: "red"}}/>
-        <CatItem text='Катера'style={{background: '../../../assets/category/boat.png'}}/>
-        <CatItem text='Снегоходы'style={{background: '../../../assets/category/snow.png'}}/>
-        <CatItem text='Вездеходы'style={{background: '../../../assets/category/maverick.png'}}/>
-        <CatItem text='Двигатели'style={{background: '../../../assets/category/engine.png'}}/>
-        </section>
-    )
-}
+  return (
+    <section className={s.category_list}>
+      <CatItem text="Квадроциклы" imgUrl={quadro}/>
+      <CatItem text="Гидроциклы" imgUrl={hydro} />
+      <CatItem text="Катера" imgUrl={boat} />
+      <CatItem text="Снегоходы" imgUrl={snow} />
+      <CatItem text="Вездеходы" imgUrl={maverick} />
+      <CatItem text="Двигатели" imgUrl={engine} />
+    </section>
+  );
+};
 
 export default CategoryList;

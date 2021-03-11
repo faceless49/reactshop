@@ -1,14 +1,14 @@
 import s from "./Hero.module.scss";
 import AdvertCard   from '../../../components/advertCard/AdvertCard'
-import Slider from "./Slider/Slider";
+import MainSlider from "../mainSlider/MainSlider";
 
 
 const Hero = (props) => {
     return (
-        <section className={s.hero}>
-            <Slider/>
+        <div className={s.hero_wrapper}>
+            <MainSlider/>
             <AdvertCard/>
-        </section>
+        </div>
     )
 }
 
