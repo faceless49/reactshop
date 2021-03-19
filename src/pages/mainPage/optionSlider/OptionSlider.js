@@ -1,18 +1,14 @@
-import s from "./PopularSlider.module.scss";
-import Card from "./../../../components/card/Card";
+import s from "./OptionSlider.module.scss";
+import Card from "../../../components/card/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import SwiperCore, { Navigation, Controller, Autoplay } from "swiper";
 
 import "swiper/swiper.scss";
-import backpack from "../../../assets/images/popularSlider/backpack.png";
-import kevlar from "../../../assets/images/popularSlider/kevlar.png";
-import audio from "../../../assets/images/popularSlider/audio.png";
-import paracord from "../../../assets/images/popularSlider/paracord.png";
 
 SwiperCore.use([Navigation, Controller, Autoplay]);
 
-const PopularSlider = (props) => {
+export const OptionSlider = (props) => {
   return (
     <div className={s.swiper_wrapper}>
       <Swiper
@@ -27,7 +23,7 @@ const PopularSlider = (props) => {
         }}
         scrollbar={{ draggable: true }}
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Card
             src={backpack}
             title='Водонепроницаемый Рюкзак'
@@ -54,10 +50,9 @@ const PopularSlider = (props) => {
             title="Спасательное снаряжение"
             text='нет в наличии'
           />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );
 };
 
-export default PopularSlider;

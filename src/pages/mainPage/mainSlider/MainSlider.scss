@@ -2,17 +2,18 @@
   &_wrapper {
     max-width: 870px;
     cursor: pointer;
-
-  }
-
-  &-button-next,&-button-prev {
-    color: #fff;
   }
 }
-.swiper-button-next:after {
-  color: white ;
+.swiper-button-prev, .swiper-button-next {
+  color: #FFFFFF;
 }
-
-span.swiper-pagination-bullet {
-  background: aqua;
+.swiper-pagination-bullet-active {
+  color: #FFFFFF;
+}
+.swiper-pagination-bullet {
+  color: transparent;
+  border: 1px solid #FFFFFF;
+}
+.swiper-pagination {
+  bottom: 40px;
 }

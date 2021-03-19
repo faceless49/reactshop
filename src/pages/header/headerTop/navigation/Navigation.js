@@ -1,13 +1,13 @@
 
-import './Navigation.css';
+import s from './Navigation.module.scss';
 
 function Navigation() {
   return (
-    <div className="navigation">
-      <ul className="navigationList">
-        <li className="navigation__items">Магазины</li>
-        <li className="navigation__items">Акции</li>
-        <li className="navigation__items">Доставка и оплата</li>
+    <div className={s.navigation}>
+      <ul className={s.navigation_list}>
+        <li className={s.navigation_item}>Магазины</li>
+        <li className={s.navigation_item}>Акции</li>
+        <li className={s.navigation_item}>Доставка и оплата</li>
       </ul>
     </div>
   );

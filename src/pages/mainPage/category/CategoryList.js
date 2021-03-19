@@ -8,7 +8,6 @@ import maverick from "../../../assets/category/maverick.png"
 import engine from "../../../assets/category/engine.png"
 
 
-// ! Как прокидывать картинки по адресу без использования переменной ?
 
 
 
@@ -16,7 +15,7 @@ import engine from "../../../assets/category/engine.png"
 
 const CategoryList = (props) => {
   return (
-    <section className={s.category_list}>
+    <section className={s.categories}>
       <CatItem text="Квадроциклы" imgUrl={quadro}/>
       <CatItem text="Гидроциклы" imgUrl={hydro} />
       <CatItem text="Катера" imgUrl={boat} />

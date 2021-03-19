@@ -1,26 +1,12 @@
-import './Header.css';
-import Navigation from './../header/headerTop/navigation/Navigation';
-import Logo from './../header/headerTop/logo/Logo';
-import Address from './../header/headerTop/address/Address';
-import Social from './../header/headerTop/socials/Socials';
-import Main from './main/Main';
-// import HeaderBottom from './../header/headerBottom/HeaderBottom';
+import s from './Header.module.scss';
+import { HeaderBottom } from './headerBottom/HeaderBottom';
+import { HeaderTop } from './headerTop/HeaderTop';
 
-function Header() {
+export const Header = (props) => {
     return (
-        <>
-        <div className="headerBlock">
-            <Navigation />
-            <Logo />
-            <Address />
-            <Social />
-            {/* <HeaderBottom /> */}
-        <div>
+        <div className={s.header}>
+            <HeaderTop/>
+            <HeaderBottom/>
         </div>
-    
-        </div>
-        <Main/>
-        </>
     );
 }
-export default Header;

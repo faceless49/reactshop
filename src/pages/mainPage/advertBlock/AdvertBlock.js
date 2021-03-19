@@ -6,7 +6,7 @@ import maverick2 from '../../../assets/advertblock/maverik2.png'
 
 
 
-const AdvertBlock = (props) => {
+export const AdvertBlock = (props) => {
   return (
     <section className={s.advert}>
       <div className="advert_imgWrapper">
@@ -21,4 +21,3 @@ const AdvertBlock = (props) => {
   );
 };
 
-export default AdvertBlock;

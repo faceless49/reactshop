@@ -1,0 +1,16 @@
+.navigation {
+  &_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #2F3035;
+    font-family: "SFPro";
+    font-weight: 700;
+  }
+  &_item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
