@@ -1,7 +1,7 @@
 import Button from "../../../components/button/Button";
 import { LinkList } from "../../../components/linksList/LinkList";
 import { SectionTitle } from "../../../components/sectionTitle/SectionTitle";
-import PopularSlider from "../popularSlider/PopularSlider";
+import {PopularSlider} from "../popularSlider/PopularSlider";
 import s from "./Products.module.scss";
 
 
