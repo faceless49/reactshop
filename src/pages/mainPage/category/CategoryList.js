@@ -14,14 +14,22 @@ import engine from "../../../assets/category/engine.png"
 
 
 const CategoryList = (props) => {
+  const data = {
+    title: 'Квадроциклы',
+    title2: 'Гидроциклы',
+    title3: 'Квадроциклы',
+    title4: 'Квадроциклы',
+    title5: 'Квадроциклы',
+    title6: 'Квадроциклы'
+  }
   return (
     <section className={s.categories}>
-      <CatItem text="Квадроциклы" imgUrl={quadro}/>
-      <CatItem text="Гидроциклы" imgUrl={hydro} />
-      <CatItem text="Катера" imgUrl={boat} />
-      <CatItem text="Снегоходы" imgUrl={snow} />
-      <CatItem text="Вездеходы" imgUrl={maverick} />
-      <CatItem text="Двигатели" imgUrl={engine} />
+      <CatItem title={data.title} imgUrl={quadro}/>
+      <CatItem title={data.title2} imgUrl={hydro} />
+      <CatItem title={data.title3} imgUrl={boat} />
+      <CatItem title={data.title4} imgUrl={snow} />
+      <CatItem title={data.title5} imgUrl={maverick} />
+      <CatItem title={data.title6} imgUrl={engine} />
     </section>
   );
 };
