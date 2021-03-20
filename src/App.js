@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 import { Products } from "./pages/mainPage/products/Products";
 import { BrowserRouter } from "react-router-dom";
 import { AdvertBlock } from "./pages/mainPage/advertBlock/AdvertBlock";
-import { OptionSlider } from "./pages/mainPage/optionSlider/OptionSlider";
+import { OptionProducts } from "./pages/mainPage/optionProducts/OptionProducts";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <CategoryList />
           <Products />
           <AdvertBlock />
-          <OptionSlider />
+          <OptionProducts/>
         </div>
         <Footer />
       </div>

@@ -9,11 +9,16 @@ import backpack from "../../../assets/images/popularSlider/backpack.png";
 import kevlar from "../../../assets/images/popularSlider/kevlar.png";
 import audio from "../../../assets/images/popularSlider/audio.png";
 import paracord from "../../../assets/images/popularSlider/paracord.png";
+import { SectionTitle } from "../../../components/sectionTitle/SectionTitle";
+import { LinkList } from "../../../components/linksList/LinkList";
 
 SwiperCore.use([Navigation, Controller, Autoplay]);
 
 const PopularSlider = (props) => {
   return (
+    <div className={s.popular_products}>
+    <SectionTitle/>
+    <LinkList/>
     <div className={s.swiper_wrapper}>
       <Swiper
         spaceBetween={30}
@@ -56,6 +61,7 @@ const PopularSlider = (props) => {
           />
         </SwiperSlide>
       </Swiper>
+    </div>
     </div>
   );
 };
