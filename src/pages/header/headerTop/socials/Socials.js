@@ -1,22 +1,20 @@
 import Socials1 from './../../../../assets/images/header/vectorheart.svg';
 import Socials2 from './../../../../assets/images/header/Vectorsiluet.svg';
 import Socials3 from './../../../../assets/images/header/Vectortelega.svg';
-import './Socials.css';
+import s from './Socials.module.scss';
 
-function Socials() {
+export const Socials = (props) => {
     return(
-        <div className="socials">
-        <a href="">
-        <img className="socialIcon" src={Socials1} alt=""/>
+        <div className={s.socials}>
+        <a href="" className={s.social_link}>
+        <img className={s.socialIcon} src={Socials1} alt=""/>
         </a>
-        <a href="">
-        <img className="socialIcon" src={Socials2} alt=""/>
+        <a href="" className={s.social_link}>
+        <img className={s.socialIcon}  src={Socials2} alt=""/>
         </a>
-        <a href="">
-        <img className="socialIcon" src={Socials3} alt=""/>
+        <a href="" className={s.social_link}>
+        <img className={s.socialIcon}  src={Socials3} alt=""/>
         </a>
         </div>
     );
 }
-
-export default Socials;

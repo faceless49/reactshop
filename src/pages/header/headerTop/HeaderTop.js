@@ -3,7 +3,7 @@ import Address from "./address/Address";
 import s from "./HeaderTop.module.scss";
 import Logo from "./logo/Logo";
 import Navigation from "./navigation/Navigation";
-import Socials from "./socials/Socials";
+import { Socials } from "./socials/Socials";
 
 export function HeaderTop (props) {
   return (
