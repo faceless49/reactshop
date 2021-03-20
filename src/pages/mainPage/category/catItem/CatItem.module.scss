@@ -9,7 +9,7 @@
     
     @media (min-width: 991px) {
       &:hover {
-        transition: color 0.3s;
+        transition: all 0.3s;
         box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
       }
     }
@@ -21,9 +21,8 @@
     align-items: flex-start;
   }
   &_title {
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Barlow';
+    font-weight: 700;
     font-size: 23px;
     color: #2f3035;
 

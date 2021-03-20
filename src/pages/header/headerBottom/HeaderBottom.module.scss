@@ -7,11 +7,11 @@
     padding: 15px 0;
   }
   &_link {
+    color: #2F3035;
     text-decoration: none;
     @media (min-width: 991px) {
       &:hover {
-        font-weight: 600;
-        transition: all 0.1s;
+        text-shadow: 0 0 .65px, 0 0 .65px;
       }
     }
   }

@@ -7,9 +7,9 @@ import s from "./AdvertHeader.module.scss";
 const AdvertHeader = (props) => {
   return (
     <div className={s.advert_header}>
-      <AdvertLabel text="Акция" style={{padding: '9px 20px'}}/>
+      <AdvertLabel text="Акция" className={s.advert_label} style={{padding: '9px 20px'}}/>
       <div className={s.advert_price}>
-      <AdvertText text="190 000"/>
+      <AdvertText text="190 000 &#8381;"/>
       <AdvertText style={{color: '#C4C4C4', fontSize: '14px'}} text="225 000 &#x20bd;"/>
       </div>
     </div>
