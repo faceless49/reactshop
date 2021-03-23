@@ -8,9 +8,9 @@ const SearchForm = (props) => {
         <div className={s.search_wrapper}>
         <div className={s.search_form}>
             <ul className={s.search_tabs}>
-                <li className={s.search_tab}>{props.text1}</li>
-                <li className={s.search_tab}>{props.text2}</li>
-                <li className={s.search_tab}>{props.text3}</li>
+                <li className={s.search_tab}>{props.text1}Поиск по  номеру</li>
+                <li className={s.search_tab}>{props.text2}Поиск по марке</li>
+                <li className={s.search_tab}>{props.text3}Поиск по названию товара</li>
             </ul>
             </div>
             <form action={s.submit} className={s.search_bar}>

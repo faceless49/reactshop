@@ -9,13 +9,11 @@ const AdvertCard = (props) => {
     <div className={s.advertcard}>
       <AdvertHeader />
       <AdvertImage />
-      <CardTitle
-        title="Лодочный мотор 
-Suzuki DF9.9BRS"
-      />
+      <CardTitle title="Лодочный мотор 
+    Suzuki DF9.9BRS"/>
       <AdvertFooter />
     </div>
   );
-}
+};
 
 export default AdvertCard;

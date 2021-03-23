@@ -7,11 +7,11 @@ import SwiperCore, {
   Autoplay,
 } from "swiper";
 
-import "swiper/swiper.scss";
 import SliderItem from "./sliderItem/SliderItem";
 import extreme from "./../../../assets/images/mainSlider/extreme.png";
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
-
 
 
 import "./MainSlider.scss";
@@ -28,16 +28,13 @@ const MainSlider = (props) => {
         spaceBetween={0}
         slidesPerView={1}
         navigation
+        pagination={{ clickable: true }}
         loop={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
           stopOnLastSlide: false,
         }}
-        pagination={{clickable:true,
-                      background: 'red'}}
-        scrollbar={{ draggable: true }}
-        dot={{backgroundColor: 'red'}}
       >
         <SwiperSlide>
           <SliderItem imgUrl={extreme} />
