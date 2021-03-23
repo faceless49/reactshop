@@ -1,0 +1,20 @@
+.promotion__buttton4 button{
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: #F0F0F4;
+    color: #C4C4C4;
+    border: 1px solid transparent;
+}
+
+.promotion__bottom .buttonBlue{
+    background-color: #1C62CD;
+    color: white;
+}
+
+.promotion__bottom .buttonBlack{
+    width: 80px;
+    background-color: black;
+    color: white;
+    border: 1px solid transparent;
+}

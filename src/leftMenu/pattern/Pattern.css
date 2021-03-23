@@ -1,0 +1,13 @@
+.model__text{
+    width: 250px;
+    height: 18px;
+    border: 1px solid silver;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.seaDoo{
+    margin: 15px 0px 0px 0px;
+    float: left;
+    line-height: 30px;
+}

@@ -5,6 +5,7 @@ import './Footer.css';
 
 function Footer() {
     return (
+        <>
     <div className="Footer__inner">
 
         <div className="footer__input">
@@ -37,8 +38,12 @@ function Footer() {
         <div className="socials">
         <Socials/>
         </div>
-        
-    </div>
+    <div className="privaty">
+        <span>Договор оферты</span>
+        <span>Политика обработки персональных данных</span>
+    </div> 
+</div>
+    </>
     );
 }
 

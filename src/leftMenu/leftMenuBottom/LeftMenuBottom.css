@@ -1,0 +1,11 @@
+
+.LMBottom{
+    font-size: 15px;
+    display: flex;
+    height: 0;
+    overflow: hidden;
+}
+
+.pick{
+    margin-right: 70px;
+}

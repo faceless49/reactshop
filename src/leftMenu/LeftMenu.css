@@ -1,0 +1,31 @@
+.leftMenu__wrapper{
+    width: 300px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.LeftMenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.buttonLeftMenu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonLeftMenu button{
+    background-color: #F0F0F4;
+    color: #C4C4C4;
+    width: 70px;
+    text-align: center;
+}

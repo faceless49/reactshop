@@ -1,0 +1,24 @@
+.power{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.power__select{
+    float: right;
+    border: 1px solid transparent;
+}
+
+.capacity{
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+
+.enginePower{
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+
+.maxSpeed{
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}

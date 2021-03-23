@@ -1,0 +1,9 @@
+.city__choice{
+    column-count: 2;
+    float: left;
+    line-height: 30px;
+}
+
+.city__choice label{
+    display: block;
+}

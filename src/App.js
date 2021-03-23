@@ -3,32 +3,17 @@ import Header from "./pages/header/Header";
 import CategoryList from "./pages/mainPage/category/CategoryList";
 import Hero from "./pages/mainPage/hero/Hero";
 import SearchForm from "./pages/mainPage/searchForm/SearchForm";
-<<<<<<< HEAD
-import Footer from "./components/footer/Footer"
-import Pickup from "./components/pickup/Pickup";
-
-
-
-function App() {
-    return (
-    <div className="App">
-      <Header/>
-      <Hero/>
-      <SearchForm placeholder='Введите марку' text1='Поиск по  номеру' text2='Поиск по марке' text3='Поиск по названию товара'/>
-      <Footer/>
-      <Pickup/>
-    </div>
-=======
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 import AdvertBlock from "./pages/mainPage/advertBlock/AdvertBlock";
 import Footer from "./components/footer/Footer";
 import PopularSlider from "./pages/mainPage/popularSlider/PopularSlider";
+import LeftMenu from "./leftMenu/LeftMenu";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
       <div className="App">
-        <Header />
+        {/* <Header />
         <section className="hero">
         <Hero/>
         </section>
@@ -38,11 +23,13 @@ const App = () => {
         </section>
         <AdvertBlock/>
         <PopularSlider/>
-      <Footer/>
+      <Footer/> */}
+
+      <LeftMenu/>
+
 
       </div>
-    </BrowserRouter>
->>>>>>> 8984ecd0099d66cdd067dc048c84fc4aa53000a2
+    // </BrowserRouter>
   );
 };
 export default App;
