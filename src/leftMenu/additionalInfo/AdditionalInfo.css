@@ -1,0 +1,30 @@
+.additionalInformation{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 10px;
+}
+
+.additionalChoice{
+    width: 250px;
+    height: 25px;
+    background-color: #F0F0F4;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.extraOption{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.extraOption img{
+    margin: 20px 0px 0px 15px;
+}
+
+.reset{
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 25px 0px 0px;
+    color: blue;
+}

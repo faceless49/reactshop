@@ -1,9 +1,15 @@
-.city__choice{
-    column-count: 2;
-    float: left;
-    line-height: 30px;
-}
+/* .city__choice{
+    margin: 15px 0px 0px 0px;
+} */
 
 .city__choice label{
-    display: block;
+    /* margin: 15px 70px 0px 0px; */
+    padding-right: 70px;
+    margin-top: 10px;
+    float: left;
+}
+
+.showMores{
+    padding-top: 10px;
+    color: blue;
 }

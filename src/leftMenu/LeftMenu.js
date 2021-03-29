@@ -10,6 +10,7 @@ import Brend from "./brend/Brend"
 import Pattern from "./pattern/Pattern"
 import Promotion from "./promotion/Promotion"
 import CityChoice from "./cityChoice/CityChoice"
+import AdditionalInfo from "./additionalInfo/AdditionalInfo"
 
 
 function LeftMenu(){
@@ -51,7 +52,7 @@ function LeftMenu(){
         </div>
             <Acordion title={data.title} img={data.img}/>
             <Availability/>
-            <LeftMenuBottom/>
+            {/* <LeftMenuBottom/> */}
             <Acordion title={data2.title} img={data2.img}/>
             <NewItems/>
             <Acordion title={data3.title} img={data3.img}/>
@@ -65,6 +66,7 @@ function LeftMenu(){
             <Promotion/>
             <Acordion title={data7.title} img={data7.img}/>
             <CityChoice/>
+            <AdditionalInfo/>
         </div>
         </>
     );

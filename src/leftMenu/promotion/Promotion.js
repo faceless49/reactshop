@@ -1,9 +1,9 @@
 import "./Promotion.css"
 
-function Promotion(props){
+function Promotion(){
     return(
         <div>
-        <div class="promotion__buttton4">
+        <div class="promotions__buttons">
         <button class="buttonBlue">SALE</button>
         <button>NEW</button>
         <button>HIT</button>

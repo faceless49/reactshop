@@ -5,12 +5,7 @@ import s from './Footer.module.scss';
 
 function Footer() {
     return (
-<<<<<<< HEAD
-        <>
-    <div className="Footer__inner">
-=======
         <div className={s.footer}>
->>>>>>> b863cf865e39a38d2f4f63d3b04b5e0632eed17d
 
     <div className={s.Footer__inner}>
 
@@ -44,19 +39,10 @@ function Footer() {
         <div className={s.socials}>
         <Socials/>
         </div>
-<<<<<<< HEAD
-    <div className="privaty">
-        <span>Договор оферты</span>
-        <span>Политика обработки персональных данных</span>
-    </div> 
-</div>
-    </>
-=======
         
     </div>
     </div>
 
->>>>>>> b863cf865e39a38d2f4f63d3b04b5e0632eed17d
     );
 }
 
